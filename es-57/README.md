@@ -20,3 +20,4 @@ const people = [
 
 const sortingByAge = sortPeopleByAge(people)
 console.log(sortingByAge)
+
