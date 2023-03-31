@@ -5,11 +5,8 @@ const person = {
   age: 25
 };
 
-const id = person.id;
-const personInfo = {
-  firstName: person.firstName,
-  lastName: person.lastName,
-  age: person.age
-};
+const { id, ...personInfo } = person;
+//The rest operator ...personInfo collects the remaining properties of the person
+// object (excluding id) into a new constant variable named personInfo.
 
 console.log(id, personInfo);
