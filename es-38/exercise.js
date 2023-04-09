@@ -1,12 +1,12 @@
-class Person {
-    firstName;
-    lastName;
-    constructor(firstName,lastName)
-    {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-}
+function multiplyByTwo(num) {
+    let number = 2;
 
-const developer = new Person('Mario', 'Rossi');
-console.log(developer.firstName + " " + developer.lastName);
+    function inside() {
+        return num * number
+    }
+
+    return inside;
+  }
+
+
+console.log(multiplyByTwo(5)());
