@@ -5,3 +5,5 @@ In the `exercise.js` file, we find a `user` object. Write a function that saves 
 Tips:
 
 - Remember to use the available `JSON methods` (parse, stringify)
+
+

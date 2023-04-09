@@ -20,5 +20,11 @@
 </html>
 
 <script>
-  // code here
+   // Spying on people's personal information like... 🕵️‍♂️
+   const inputElements = document.querySelectorAll('input.form-input');
+
+for (const inputElement of inputElements) {
+  const labelElement = inputElement.previousElementSibling;
+  console.log(`${labelElement.textContent.trim()} ${inputElement.value}`);
+}
 </script>
