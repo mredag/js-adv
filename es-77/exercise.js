@@ -32,4 +32,4 @@ function checkIsLogged(isLogged) {
     .catch((error) => {
       console.error(error);
     });
-  
+   
